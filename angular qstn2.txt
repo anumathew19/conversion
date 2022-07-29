@@ -1,0 +1,31 @@
+selector
+A selector is used to identify each component uniquely into the component tree
+
+templateUrl
+templateUrl can also be a function which returns the URL of an HTML template
+ 
+ngModel
+ is a directive which binds input, select and textarea, and
+ stores the required user value in a variable 
+
+NGFOR & NGIF
+add or remove content to our applications based on some condition.
+
+The map method is used to convert each item of an array, while the filter method is used to select certain items of an array.
+the subscribe is for activating the observable and listening for emitted values. 
+Observables: they’re not executed until we subscribe to them using the subscribe() method.
+Promises: execute immediately after creation.Don’t provide any operations.Push errors to the child promises.
+json file.
+it has all the packg references needed for a pjct.whatevr farmwrk we used in pjct that listed in a json file.
+
+one way-2way
+exchange data from view to the component
+
+
+
+
+
+
+
+
+
