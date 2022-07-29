@@ -1,0 +1,33 @@
+Components
+Components are basically classes that interact with the . html file of the component, which gets displayed on the browser.
+Just-in-Time (JIT), which compiles your app in the browser at runtime. This was the default until Angular 8.
+Ahead-of-Time (AOT), which compiles your app and libraries at build time. This is the default since Angular 9.
+directives
+three kinds
+There are three kinds of directives in Angular: 
+Components—directives 
+Structural directives—change the DOM layout by adding and removing DOM elements. *ngif *ngfor
+Attribute directives—change the appearance or behavior of an element, component
+[hidden]
+Pipes
+Pipes are a useful feature in Angular. to transform values in an Angular template.and combine multiple functions into a single function. The pipe() function takes as its arguments the functions you want to combine, and returns a new function that, when executed, runs the composed functions in sequence.
+Steps Involved In Creating a Custom Pipe In Angular are:
+1) Create a Pipe Class and decorate it with the decorator @Pipe.
+2) Supply a name property to be used as template code name.
+3) Register your Pipe in the module under declarations.
+4) Finally, implement PipeTransform and write transformation logic.
+5) Use your pipe in the HTML using ‘|’, which represents a pipe.
+6) Also, add Custom arguments if you want to.
+
+
+
+
+
+
+
+
+
+
+
+
+https://github.com/anumathew19
