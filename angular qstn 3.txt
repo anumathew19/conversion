@@ -1,0 +1,18 @@
+About Git and Why Git ?
+It is a free and open-source version control system used to handle small to very large projects efficiently. Git is used to tracking changes in the source code, enabling multiple developers to work together on non-linear development.
+decorator
+Decorators are actually just functions.used to separate modification or decoration of a class without modifying the original source code.
+
+Angular is a framework which allows us to create “Single Page Applications”, and it (index. html) is the single page which was provided by the server.
+Celery is a task queue implementation for Python web applications used to asynchronously execute work outside the HTTP request-response cycle. Celery is an implementation of the task queue concept.
+var variables can be updated and re-declared within its scope; let variables can be updated but not re-declared; const variables can neither be updated nor re-declared.
+switchMap cancels previous HTTP requests that are still in progress, while mergeMap lets all of them finish. 
+
+Let’s create two components:
+parent
+child
+In the parent component, declare the property that you want to receive in the child component, say ‘ParentId’.
+While including the child component inside the parent component, bind the ‘ParentId’ property to the child component using property binding.
+<child [id] = "parentid"></child>
+Now in the child component import Input from @angular/core and create a property decorated by @input decorator to receive ‘ParentId’ from parent component. The name of property should be the same as used for binding the ‘ParentId’ property i.e ‘id’.
+‘ParentId’ will be successfully received in the child component as ‘id’. 
